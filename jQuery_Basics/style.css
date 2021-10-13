@@ -1,0 +1,294 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper{
+    width: 100%;
+    background-color: white;
+    /* padding: 15px 15px 15px 15px; */
+}
+
+#content{
+    width: 970px;
+    background-color:rgb(52, 102, 143);
+    margin: 0 auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+#header{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+    #header #python_logo img{
+        height: 80px;
+        width: 250px;
+    }
+
+    #header #search_side .text{
+        color: white;
+        font-size: small;
+        margin-left: 50px;
+    }
+    #header #search_side .size{
+        color: yellow;
+        font-size: small;
+    }
+    #header #search_side .bar{
+        color: black;
+        font-size: small;
+    }
+
+    #header #search_side #search-bg{
+        width: 200px;
+        height: 30px;
+        background-color: #2c3840;
+        border-radius: 8px;
+        display: flex;
+        padding: 8px 8px 8px 8px;
+        justify-content: center;
+        margin-top: 5px;
+    }
+    #header #search_side #search{
+        width: 120px;
+        height: 25px;
+        background-color: white;
+        border-width: 2px;
+        border-style: solid;
+        border-color: darkgrey;
+        color: darkgrey;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: small;
+        text-align: center;
+    }
+    #header #search_side #go_button{
+        width: 35px;
+        height: 20px;
+        background-color: rgb(28, 28, 92);
+        border-width: 2px;
+        border-style: solid;
+        border-color: darkgrey;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: small;
+        text-align: center;
+        margin-left: 5px;
+        padding-top: 3px;
+    }
+
+#nav-bar{
+    width: 900px;
+    height: 40px;
+    background-color: rgb(95, 150, 196);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+    #nav-bar .option{
+        color: white;
+    }
+
+#body{
+    width: 850px;
+    height: 250px;
+    display: flex;
+    margin: 20px auto;
+    
+    
+}
+    #body #side-bar{
+        width: 150px;
+        justify-content: center;
+        
+    }
+    #body #side-bar li{
+        list-style-type: none;
+        color: white;
+    }
+    #body #side-bar li::before{
+            content: "\00BB";
+            color: yellow;
+            padding-right: 4px;
+    }
+    #body #side-bar li a{
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        
+    }
+    #body #side-bar .link1{
+        padding-bottom: 6px;
+        padding-left: 30px;
+    }
+    #body #side-bar .link2{
+        padding-bottom: 6px;
+        padding-left: 5px;
+    }
+    #body #side-bar .link3{
+        padding-bottom: 6px;
+        padding-left: 9px;
+    }
+    #body #side-bar .link4{
+        padding-bottom: 6px;
+    }
+    #body #side-bar .link5{
+        padding-bottom: 6px;
+        padding-left: 22px;
+    }
+    #body #side-bar .link6{
+        padding-bottom: 6px;
+        padding-left: 10px;
+    }
+    #body #side-bar .link7{
+        padding-bottom: 6px;
+        padding-left: 26px;
+    }
+
+    #body #paragraph{
+        width: 630px;
+    }
+        #body #paragraph .first{
+            /* padding: 0 20px 8px 20px; */
+            color: white;
+            font-size: small;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            text-indent: 40px;
+        }
+        #body #paragraph .second{
+            /* padding: 0 20px 8px 20px; */
+            color: white;
+            font-size: small;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            text-indent: 34px;
+        }
+        #body #paragraph .third{
+            /* padding: 0 20px 8px 20px; */
+            color: white;
+            font-size: small;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            text-indent: 40px;
+            
+        }
+        #body #paragraph .fourth{
+            /* padding: 0 20px 8px 20px; */
+            color: white;
+            font-size: small;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            text-indent: 34px;
+        }
+        #body #paragraph .last{
+            /* padding: 0 20px 8px 20px; */
+            color: white;
+            font-size: small;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            text-indent: 315px;
+        }
+
+        #body #paragraph #highlighted{
+            /* text-indent: 232px; */
+            padding-top: 8px;
+            padding-bottom: 8px;
+            width: 630px;
+        }
+            #body #paragraph #highlighted .yellow-style{
+                color: yellow;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                font-style: italic;
+            }
+                #body #paragraph #highlighted .one{
+                    margin-left: 232px;
+                }
+                #body #paragraph #highlighted .two{
+                    margin-left: 228px;
+                } 
+                #body #paragraph #highlighted .three{
+                    margin-left: 224px;
+                } 
+                #body #paragraph #highlighted .four{
+                    margin-left: 200px;
+                } 
+                #body #paragraph #highlighted .five{
+                    margin-left: 262px;
+                }
+                
+            #body #paragraph #highlighted .white-style{
+                color: white;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                margin-left: 265px;
+                font-size: medium;
+            }
+
+    #bottom-body{
+        width: 970px;
+        background-color: white;
+        display: flex;
+        justify-content:space-around;
+        padding-top: 8px;
+        border-top: 2px;
+        border-top-style: solid;
+        border-top-color: black;
+    }
+
+        #bottom-body #col1, #col2{
+            height: 230px;
+
+        }
+
+
+            #bottom-body #col1 .headline, #col2 .headline{
+                width: 420px;
+                height: 3px;
+                background-color: rgb(95, 150, 196);
+                border-radius: 5px;
+                margin-bottom: 3px;
+            }
+
+                h4{
+                    text-align: center;
+
+                }
+
+                .info{
+                    width: 330px; 
+                    padding-left: 30px;
+                    padding-top: 4px;
+                } 
+                    .info .lastline{
+                        display: block;
+                        text-align: center;
+                    } 
+                .bullets{
+                    margin-left: 70px;
+                    list-style-type: square;
+                    
+                }
+                .bullets li a{
+                    color: rgb(94, 94, 231);
+                    text-decoration: none;
+                    font-family: 'Times New Roman', Times, serif;
+
+                }
+
+        #last-body{
+            width: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            color: rgba(255, 255, 255, 0.493);
+            margin: 0 auto;
+            padding-top: 40px;
+        }
+
+        #copyright{
+            text-align: center;
+            font-size:x-small;
+            color: rgba(255, 255, 255, 0.288);
+            padding-top: 15px;
+        }    

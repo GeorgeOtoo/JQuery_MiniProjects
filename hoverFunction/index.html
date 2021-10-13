@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src='http://code.jquery.com/jquery-1.10.2.min.js'></script>
+        <title>Hover In/Out</title>
+        <script type="text/javascript">
+
+        $(function(){
+
+            $('.WhitePic1').mouseover(function(){
+                (this).src = "https://img.ltwebstatic.com/images3_pi/2021/03/04/1614852122faf920533a32dc28214017577c7cbe62_thumbnail_900x.webp"
+            }).mouseout(function(){
+                (this).src = "https://img.ltwebstatic.com/images3_pi/2021/03/04/161485212402a9cc83a08d4ae7d6b1b160f143ba2c_thumbnail_900x.webp"
+            });
+
+            $('.shirt1').hover(function(){
+                $(this).attr('src', 'https://img.ltwebstatic.com/images3_pi/2020/07/15/1594778212d76a5487c6b3c3268f4ccbe38a4c7a82_thumbnail_900x.webp')
+            }, function(){
+                $(this).attr('src', 'https://img.ltwebstatic.com/images3_pi/2020/07/15/1594778208e6d90e0e69fead4268875ba5323402f0_thumbnail_900x.webp')
+            });
+
+            $('.suit1').hover(function(){
+                $(this).attr('src', 'https://images.unsplash.com/photo-1610652492500-ded49ceeb378?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80')
+            }, function(){
+                $(this).attr('src', 'https://images.unsplash.com/photo-1594938298603-c8148c4dae35?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80')
+            });
+
+            $('.pants1').hover(function () {
+                $(this).attr('src', 'https://bonobos-prod-s3.imgix.net/products/207708/original/PANT_DRESS-PANT_15687-GYW09_4.jpg?1611794555=&auto=format%2Ccompress&q=50&fit=clip&cs=srgb&ixlib=react-8.6.1&w=450&dpr=2')
+            }, function () {
+                $(this).attr('src', 'https://bonobos-prod-s3.imgix.net/products/207707/original/PANT_DRESS-PANT_15687-GYW09_3.jpg?1611794550=&auto=format%2Ccompress&q=50&fit=clip&cs=srgb&ixlib=react-8.6.1&w=450&dpr=2')
+            });
+
+            
+        });
+        
+        </script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <h1>Hover Through What You Want</h1>
+
+            <div class="content">
+
+                <img class="WhitePic1" src="https://img.ltwebstatic.com/images3_pi/2021/03/04/161485212402a9cc83a08d4ae7d6b1b160f143ba2c_thumbnail_900x.webp" alt="White T front">
+    
+                <!-- <img class="WhitePic2" src="https://img.ltwebstatic.com/images3_pi/2021/03/04/1614852122faf920533a32dc28214017577c7cbe62_thumbnail_900x.webp"
+                    alt="White T Back"> -->
+    
+                <img class="shirt1" src="https://img.ltwebstatic.com/images3_pi/2020/07/15/1594778208e6d90e0e69fead4268875ba5323402f0_thumbnail_900x.webp" alt="White Shirt Front">
+    
+                <!-- <img class="shirt2" src="https://img.ltwebstatic.com/images3_pi/2020/07/15/1594778212d76a5487c6b3c3268f4ccbe38a4c7a82_thumbnail_900x.webp" alt="White Shirt Back"> -->
+    
+                <img class="pants1" src="https://bonobos-prod-s3.imgix.net/products/207707/original/PANT_DRESS-PANT_15687-GYW09_3.jpg?1611794550=&auto=format%2Ccompress&q=50&fit=clip&cs=srgb&ixlib=react-8.6.1&w=450&dpr=2" alt="Wool Pants Front">
+    
+                <!-- <img class="pants2" src="https://bonobos-prod-s3.imgix.net/products/207708/original/PANT_DRESS-PANT_15687-GYW09_4.jpg?1611794555=&auto=format%2Ccompress&q=50&fit=clip&cs=srgb&ixlib=react-8.6.1&w=450&dpr=2" alt="Wool Pants Back"> -->
+    
+                <img class="suit1" src="https://images.unsplash.com/photo-1594938298603-c8148c4dae35?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Blue Wool Suit">
+    
+                <!-- <img class="suit2" src="https://images.unsplash.com/photo-1610652492500-ded49ceeb378?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80" alt="Black Wool Suit"> -->
+                
+            </div>
+
+        </div>
+    </body>
+</html>

@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper{
+    padding: 15px 15px 15px 15px;
+    width: 600px;
+    height: 1000px;
+    background-color: azure;
+    margin: 0px auto;
+}
+
+.addClass{
+    width: 600px;
+    height: 100px;
+    /* text-align: center; */
+}
+    .addClass .headingHere{
+        margin: 0px 0px 10px 250px;
+    }
+    .addClass .buttonHere{
+        
+    }
+    .addClass .textHere{
+        display: inline-block;
+        margin-left: 45px;
+    }
+
+hr{
+    height: 5px;
+    width: 600px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.changeColor{
+    background-color:aquamarine;
+}
+
+.slideToggle{
+    width: 600px;
+    height: 250px;
+    /* text-align: center; */
+}
+    .slideToggle .headingHere2{
+        margin: 0px 0px 10px 120px;
+    }
+    .slideToggle .buttonHere2{
+        
+    }
+    .slideToggle .textHere2{
+        display: inline-block;
+        margin-left: 25px;
+    }
+    .slideToggle .imgTag{
+        width: 150px;
+        height: 100px;
+        display: block;
+        margin-top: 10px;
+    }
+
+
+    .slide{
+    width: 600px;
+    height: 250px;
+    /* text-align: center; */
+}
+    .slide .headingHere3{
+        margin: 0px 0px 10px 120px;
+    }
+    .slide .buttonHere2{
+        
+    }
+    .slide .textHere3{
+        display: inline-block;
+        margin-top: 10px;
+    }
+    .slide .imgTag2{
+        width: 150px;
+        height: 100px;
+        display: block;
+        margin-top: 10px;
+    }
+
+
+    
+
+hr{
+    height: 5px;
+    width: 600px;
+    background-color: black;
+    border-radius: 10px;
+}

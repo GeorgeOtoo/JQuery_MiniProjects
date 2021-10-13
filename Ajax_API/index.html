@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Getting API Info</title>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/eggplant/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script>
+        $(function () {
+            //$.get("https://pokeapi.co/api/v2/pokemon/1/", function(data){
+
+                var html_content = "";
+                for(var i = 1; i<152; i++){
+                //     html_content += '<img src="' + data.sprites.front_shiny + '">';
+                        html_content += '<img src="http://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/' +  i + '.png">';
+                }
+                $('#pokemon').html(html_content);
+            //}, "json");
+        });
+    </script>
+
+</head>
+
+<body>
+
+    <div id="pokemon">
+
+    </div>
+
+
+</body>
+
+</html>

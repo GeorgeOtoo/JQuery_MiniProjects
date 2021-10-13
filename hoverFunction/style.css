@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper{
+    width: 650px;
+    height: 250px;
+    margin: 15px auto;
+    background-color: bisque;
+    padding: 10px 10px 10px 10px;
+}
+
+.content{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+img{
+    width: 150px;
+    height: 200px;
+}
+
+h1{
+    text-align: center;
+}

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- make sure to link the the Jquery library to the head tag
+Also don't forget to link the js file (Make sure this comes after link to the jquery file) 
+
+Multiple ways to use Jquery
+
+1)you can create a seperate Js file for jquery but do not forget to include the "defer". That is <script defer src="main.js"> </script>
+this allows for all the html and css to run before the Jquery. 
+
+you can also include $(function(){
+
+}) // this allows for the html and css to finisg loading before the js
+2) you can include the script tag
+-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Python</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+
+        <div id="content">
+
+
+
+            <!-- HTML for header contents -->
+            <div id="header">
+
+                <div id="python_logo">
+                    <img src="python.png" alt="python_logo">
+                </div>
+
+                <div id="search_side">
+                    <p class="text">Text Size: <a class="size" href="#">Normal</a> <span class="bar"> | </span> <a
+                            class="size" href="#">Large</a></p>
+
+                    <div id="search-bg">
+                        <div id="search">search</div>
+                        <div id="go_button">GO</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- HTML for nav bar -->
+
+            <div id="nav-bar">
+
+                <div class="option">About</div>
+                <div class="option">Downloads</div>
+                <div class="option">Documentation</div>
+                <div class="option">Community</div>
+                <div class="option">News</div>
+                <div class="option">Events</div>
+
+            </div>
+
+            <!-- HTML for the body -->
+
+            <div id="body">
+
+                <div id="side-bars">
+                    <ul id="side-bar">
+                        <li class="links link1"><a href="#">Docs</a></li>
+                        <li class="links link2"><a href="#">Audio/Visual Talks</a></li>
+                        <li class="links link3"><a href="#">Beginner's Guide</a></li>
+                        <li class="links link4"><a href="#">Developer's Guide</a></li>
+                        <li class="links link5"><a href="#">Pep Index</a></li>
+                        <li class="links link6"><a href="#">Python Books</a></li>
+                        <li class="links link7"><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <div id="paragraph">
+
+                    <p class="first">First appearing in 1991, Python is a general-purpose, high-level, interpreted
+                        programming </p>
+                    <p class="second"> language whose design focus emphsizes code readability. Whether for
+                        processing/analyzing </p>
+                    <p class="third"> data to powering many well-known applications. Python is not only a great language
+                        for new </p>
+                    <p class="fourth"> programmers but also powerful enough for seasoned develpers building whatever
+                        they can think </p>
+                    <p class="last">of.</p>
+
+
+
+                    <div id="highlighted">
+
+                        <p class="yellow-style one">Beatiful is better than ugly;</p>
+                        <p class="yellow-style two">Explicit is better than implicit;</p>
+                        <p class="yellow-style three">Simple is better than complex;</p>
+                        <p class="yellow-style four">Complex is better than complicated;</p>
+                        <p class="yellow-style five">Readability counts;</p>
+                        <p class="white-style">The Zen of Python;</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="bottom-body">
+
+                <div id="col1">
+
+                    <div class="headline"></div>
+                    <h4>Getting Started</h4>
+                    <p class="info">
+                        Python can be easy to pick up whether you're a first time programmer or you're expreienced with
+                        other languages. The following pages are a useful first step to get on your way writing <span
+                            class="lastline"> programs with Python!
+                        </span>
+                    </p>
+                    <div class="bullet">
+                        <ul class="bullets">
+
+                            <li> <a href="#">Begginer's Guide, Programmers</a></li>
+                            <li> <a href="#">A Beginner's Guide, Non-Progammers</a></li>
+                            <li> <a href="#">Code sample and snippets for Beginners</a></li>
+                            <li class = "test"> <a href="#"></a></li>
+
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div id="col2">
+
+                    <div class="headline"></div>
+                    <h4>Applications</h4>
+                    <p class="info">
+                        The Python Package Index (PyPI) hosts thousands of third-party modules for Python. Both Pyhton's
+                        standard library and the community-contributed modules allow for endless<span class="lastline">
+                            possiblities.</span>
+                    </p>
+
+                    <div class="bullet">
+                        <ul class="bullets">
+
+                            <li> <a href="#">Web and Internet Development</a></li>
+                            <li> <a href="#">Database Access</a></li>
+                            <li> <a href="#">Desktop GUIs</a></li>
+                            <li> <a href="#">Network Programming</a></li>
+                            <li> <a href="#">Software and Game Development</a></li>
+
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div id="last-body">
+
+                <div class="help">Help and General Contact</div>
+                <div class="diversity">Diversity Initiatives</div>
+                <div class="submit">Submit Website Bugs</div>
+
+            </div>
+
+            <div id="copyright">
+
+                Copyright©2001-2016.
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+</body>
+
+</html>

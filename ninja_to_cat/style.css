@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper{
+    width: 300px;
+    height: 200px; 
+    margin: 10px auto;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
